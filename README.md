@@ -1,4 +1,4 @@
-# Pembelajaran Mesin F
+# Pembelajaran Mesin C
 
 |         Nama         |    NRP     |
 | :------------------: | :--------: |
