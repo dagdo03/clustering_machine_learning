@@ -64,8 +64,10 @@ Pada visualisasi hasil clustering menggunakan algoritma agglomerative, terdapat 
 |    0    |      -0.489085      |       -0.024088       |
 |    1    |      0.802456       |       -0.061573       |
 
+Data yang dihasilkan oleh algoritma agglomerative yang negatif disebabkan oleh proses normalisasi data yang dilakukan sebelum clustering. Hal ini tidak mempengaruhi hasil clustering yang didapatkan. Selain itu, Jumlah data yang digunakan dalam algoritma agglomerative lebih sedikit dibandingkan dengan algoritma k-means, yaitu sebanyak 10000 data berbanding 1 jt data.
+
 ## Kesimpulan
 
-Pada masing masing algoritma clustering, k-means dan agglomerative, didapatkan hasil clustering yang berbeda. Pada algoritma k-means, didapatkan 5 cluster, sedangkan pada algoritma agglomerative, didapatkan 2 cluster. Dari hasil evaluasi yang dilakukan, didapatkan bahwa algoritma agglomerative memiliki nilai silhouette score yang lebih tinggi dibandingkan dengan algoritma k-means. Hal ini menunjukkan bahwa algoritma agglomerative lebih baik dalam melakukan clustering pada dataset yang digunakan.
+Pada masing masing algoritma clustering, k-means dan agglomerative, didapatkan hasil clustering yang berbeda. Pada algoritma k-means, didapatkan cluster yang optimal yaitu 5 cluster, sedangkan pada algoritma agglomerative, didapatkan cluster yang optimal adalah 2 cluster. Dari hasil evaluasi yang dilakukan, didapatkan bahwa algoritma agglomerative memiliki nilai silhouette score yang lebih tinggi dibandingkan dengan algoritma k-means. Hal ini menunjukkan bahwa algoritma agglomerative lebih baik dalam melakukan clustering pada dataset yang digunakan.
 
 Pada algoritma k-means, konsumsi energi yang tertinggi berada pada cluster 3, sedangkan konsumsi energi yang terendah berada pada cluster 1, serta konsumsi energi yang sedang berada pada cluster 0 dan 2. Sedangkan pada algoritma agglomerative, konsumsi energi yang tertinggi berada pada cluster 1, sedangkan konsumsi energi yang terendah berada pada cluster 0. Hal ini menunjukkan bahwa hasil clustering yang didapatkan oleh kedua algoritma tersebut berbeda.
