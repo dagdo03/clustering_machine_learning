@@ -6,6 +6,7 @@
 |  Daud Dhiya' Rozaan  | 5025211021 |
 | Moch. Taslam Gustino | 5025211011 |
 |    Ihsan Widagdo     | 5025211231 |
+| Muhammad Rafif Tri R | 5025211009 |
 
 ## K-Means Clustering
 
